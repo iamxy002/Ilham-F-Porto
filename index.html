@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="id" class="scroll-smooth">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#090d16">
+  <meta name="description" content="Portfolio Ilham Febrian — pelajar Teknik Komputer dan Jaringan.">
+  <title>Ilham Febrian — Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>tailwind.config={theme:{extend:{fontFamily:{sans:['DM Sans','sans-serif'],display:['Space Grotesk','sans-serif']},colors:{ink:'#090d16',electric:'#6688ff',paper:'#f4f5f7',slateink:'#101521'}}}}</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://unpkg.com/lucide@latest" defer></script>
+  <script src="script.js" defer></script>
+</head>
+<body class="bg-ink text-white antialiased selection:bg-electric/40">
+  <div class="scroll-progress" aria-hidden="true"></div>
+  <header class="site-header" id="siteHeader">
+    <nav class="nav-shell" aria-label="Navigasi utama">
+      <a class="brand" href="#home" aria-label="Ilham, ke beranda">Ilham<span>.</span></a>
+      <button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="mobileNav" aria-label="Buka navigasi"><i data-lucide="menu"></i></button>
+      <div class="nav-links" id="desktopNav"><a href="#home">Home</a><a href="#about">About</a><a href="#portfolio">Portfolio</a><a href="#contact">Contact</a></div>
+      <a href="#contact" class="nav-cta">Let's talk <i data-lucide="arrow-up-right"></i></a>
+    </nav>
+    <div class="mobile-nav" id="mobileNav"><a href="#home">Home</a><a href="#about">About</a><a href="#portfolio">Portfolio</a><a href="#contact">Contact</a></div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-image" aria-hidden="true"></div><div class="hero-grid" aria-hidden="true"></div><div class="hero-glow" id="heroGlow" aria-hidden="true"></div>
+      <div class="hero-content wrap" data-parallax>
+        <p class="eyebrow hero-enter"><span class="status-dot"></span> PORTFOLIO PRIBADI <span class="eyebrow-line"></span> 2025—26</p>
+        <p class="hero-kicker hero-enter">WELCOME TO MY PORTFOLIO</p>
+        <h1 class="hero-title hero-enter">Building thoughtful<br><span>digital experiences.</span></h1>
+        <p class="hero-copy hero-enter">Halo, saya Ilham Febrian, pelajar Teknik Komputer dan Jaringan yang senang mempelajari komputer, jaringan, dan teknologi.</p>
+        <div class="hero-actions hero-enter"><a href="#portfolio" class="button button-primary magnetic">Jelajahi karya <i data-lucide="arrow-down-right"></i></a><a href="#about" class="button button-ghost magnetic">Kenali saya <i data-lucide="arrow-up-right"></i></a></div>
+      </div>
+      <div class="hero-side-note"><span></span> SCROLL TO EXPLORE</div>
+      <div class="hero-index">01 <span>/</span> 04</div>
+    </section>
+
+    <section class="about section-dark topo-bg" id="about">
+      <div class="wrap">
+        <div class="section-heading reveal"><div><p class="section-label">01 — ABOUT ME</p><h2>Perkenalkan, <span>Ilham.</span></h2></div><p class="heading-note">Pelajar TKJ yang antusias belajar jaringan, perangkat komputer, dan teknologi.</p></div>
+        <div class="about-grid">
+          <div class="profile-column reveal">
+            <div class="profile-frame tilt-card"><div class="profile-image"><img src="assets/Profile.jfif" alt="Foto profil Ilham Febrian" loading="lazy"><div class="profile-shade"></div><div class="profile-caption"><div><strong>Ilham Febrian</strong><span>Pelajar · Teknik Komputer dan Jaringan</span></div><span class="available"><i></i> Open to learn</span></div></div></div>
+            <div class="profile-stamp"><span>EW</span><small>CREATIVE<br>BY NATURE</small></div>
+          </div>
+          <div class="about-copy reveal"><p class="about-lead">Saya Ilham Febrian, seorang <em>pelajar Teknik Komputer dan Jaringan (TKJ).</em></p><p class="body-copy">Saya sedang menempuh pendidikan di SMK Plus Pelita Nusantara. Saya tertarik mengembangkan kemampuan di bidang IoT, software, hardware komputer, serta networking menggunakan Mikrotik dan Cisco. Melalui pembelajaran di sekolah dan pengalaman PKL di PT Jala Lintas Media, saya terus mengasah keterampilan teknis, ketelitian, dan kemampuan bekerja sama.</p>
+            <div class="skill-row"><span>BIDANG YANG SAYA KERJAKAN</span><div><b>IoT</b><b>Software</b><b>Hardware Komputer</b><b>Networking</b><b>Mikrotik</b><b>Cisco</b></div></div>
+            <div class="about-actions"><a href="mailto:hello@example.com?subject=Permintaan%20CV" class="button button-primary magnetic">View CV <i data-lucide="download"></i></a><a href="#portfolio" class="text-link">View PKL <i data-lucide="arrow-up-right"></i></a></div>
+          </div>
+        </div>
+        <div class="history-grid">
+          <article class="history-card reveal"><div class="history-title"><span class="icon-box"><i data-lucide="graduation-cap"></i></span><div><p class="section-label">PERJALANAN BELAJAR</p><h3>Education</h3></div></div>
+            <div class="timeline"><div class="timeline-item"><span class="timeline-dot"></span><div class="timeline-meta"><b>2015 — 2021</b><span class="badge badge-done">Selesai</span></div><h4>SDN Cirimekar 02</h4><p>Sekolah Dasar</p></div><div class="timeline-item"><span class="timeline-dot"></span><div class="timeline-meta"><b>2022 — 2024</b><span class="badge badge-done">Selesai</span></div><h4>SMP IT Alishlah</h4><p>Sekolah Menengah Pertama</p></div><div class="timeline-item"><span class="timeline-dot current"></span><div class="timeline-meta"><b>2025 — Sekarang</b><span class="badge badge-live"><i></i> Berlangsung</span></div><h4>SMK Plus Pelita Nusantara</h4><p>Sekolah Menengah Kejuruan</p></div></div>
+          </article>
+          <article class="history-card reveal"><div class="history-title"><span class="icon-box violet"><i data-lucide="briefcase-business"></i></span><div><p class="section-label">PENGALAMAN</p><h3>Experience</h3></div></div>
+            <div class="timeline"><div class="timeline-item"><span class="timeline-dot current"></span><div class="timeline-meta"><b>2026</b><span class="badge badge-live"><i></i> PKL</span></div><h4>Praktik Kerja Lapangan</h4><p>PT Jala Lintas Media · Warehouse</p><p>Quality Control &amp; rekondisi adaptor dan ONT</p></div></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="folder-bridge" aria-label="Buka arsip karya"><div class="wrap folder-bridge-inner"><div class="folder-bridge-copy reveal"><p class="section-label">DOKUMENTASI &amp; PENCAPAIAN</p><h2>Pengalaman nyata.<br><span>Pencapaian yang berarti.</span></h2><p>Jelajahi dokumentasi PKL, sertifikat, dan momen belajar yang membentuk perjalanan saya.</p></div>
+      <button class="archive-folder reveal" id="archiveFolder" aria-label="Buka folder portfolio"><span class="folder-back"></span><span class="folder-paper paper-one"><i data-lucide="file-badge"></i><small>Certificate.pdf</small></span><span class="folder-paper paper-two"><i data-lucide="images"></i><small>Gallery.jpg</small></span><span class="folder-front"><span class="folder-tab">ILHAM · PORTFOLIO</span><span class="folder-icon"><i data-lucide="folder-open"></i></span><b>Dokumentasi<br>&amp; Pencapaian</b><small>PKL · CERTIFICATES · GALLERY</small><span class="folder-hint">HOVER / CLICK <i data-lucide="arrow-right"></i></span></span></button>
+    </div></section>
+
+    <section class="portfolio section-light topo-light" id="portfolio">
+      <div class="wrap">
+        <div class="section-heading reveal"><div><p class="section-label">02 — SELECTED WORK</p><h2>Portfolio <span>&amp; more.</span></h2></div><p class="heading-note">Pilihan karya, pencapaian, dan momen yang saya abadikan.</p></div>
+        <div class="portfolio-tabs reveal" role="tablist" aria-label="Kategori portfolio"><button class="portfolio-tab active" role="tab" aria-selected="true" aria-controls="panel-projects" id="tab-projects" data-tab="projects">PKL <span>05</span></button><button class="portfolio-tab" role="tab" aria-selected="false" aria-controls="panel-certificates" id="tab-certificates" data-tab="certificates" tabindex="-1">Certificates <span>10</span></button><button class="portfolio-tab" role="tab" aria-selected="false" aria-controls="panel-gallery" id="tab-gallery" data-tab="gallery" tabindex="-1">Gallery <span>06</span></button></div>
+        <div class="tab-panel active" role="tabpanel" id="panel-projects" aria-labelledby="tab-projects" data-panel="projects">
+          <div class="pkl-intro reveal"><div class="pkl-copy"><p class="credential-org">PENGALAMAN LAPANGAN</p><h3>Praktik kerja di PT Jala Lintas Media.</h3><p>Saya menjalani Praktik Kerja Lapangan di PT Jala Lintas Media, divisi Warehouse. Kegiatan saya mencakup Quality Control (QC) serta rekondisi adaptor dan ONT. Dari proses pemeriksaan, penanganan perangkat, hingga persiapan unit untuk digunakan kembali, saya belajar menjaga ketelitian dan kualitas kerja di lingkungan operasional.</p><div class="pkl-facts"><span><i data-lucide="briefcase-business"></i> PT Jala Lintas Media</span><span><i data-lucide="map-pin"></i> Divisi Warehouse</span><span><i data-lucide="clipboard-check"></i> Quality Control &amp; Rekondisi</span></div></div><div class="pkl-callout"><i data-lucide="notebook-pen"></i><span>CATATAN PERJALANAN</span><b>Setiap hari<br>adalah ruang belajar.</b></div></div>
+          <div class="pkl-gallery">
+            <figure class="pkl-photo pkl-photo-wide reveal"><img src="assets/Foto-PKL/Foto%20Bersama%20tim%20warehouse.jpeg" alt="Foto bersama tim Warehouse PT Jala Lintas Media" loading="lazy"><figcaption><span>01 / TIM WAREHOUSE</span><b>Belajar dan bekerja bersama tim</b></figcaption></figure>
+            <figure class="pkl-photo reveal"><img src="assets/Foto-PKL/Melakukan%20QC%20ONT%20(2).jpeg" alt="Melakukan Quality Control ONT" loading="lazy"><figcaption><span>02 / QUALITY CONTROL</span><b>Pemeriksaan kualitas ONT</b></figcaption></figure>
+            <figure class="pkl-photo reveal"><img src="assets/Foto-PKL/Melakukan%20QC%20ONT.jpeg" alt="Proses pemeriksaan perangkat ONT" loading="lazy"><figcaption><span>03 / QC ONT</span><b>Memeriksa kondisi perangkat</b></figcaption></figure>
+            <figure class="pkl-photo reveal"><img src="assets/Foto-PKL/Melakukan%20Quality%20Control%20Adaptor%2012V.jpeg" alt="Quality Control adaptor 12 volt" loading="lazy"><figcaption><span>04 / QC ADAPTOR</span><b>Pengecekan adaptor 12V</b></figcaption></figure>
+            <figure class="pkl-photo reveal"><img src="assets/Foto-PKL/Pen%20scanan%20ONT%20Yang%20akan%20dikirim.jpeg" alt="Pemindaian ONT yang akan dikirim" loading="lazy"><figcaption><span>05 / PERSIAPAN PENGIRIMAN</span><b>Scan ONT sebelum dikirim</b></figcaption></figure>
+          </div>
+        </div>
+        <div class="tab-panel" role="tabpanel" id="panel-certificates" aria-labelledby="tab-certificates" data-panel="certificates" hidden><div class="credential-grid">
+          <article class="credential-card reveal"><a class="certificate-preview" href="assets/Sertifikat/DTA%20Cloud%20Essential%20CA%20-%20DEX%20-%20AWS%20-%20Nasional.jpeg" target="_blank" rel="noreferrer" aria-label="Buka sertifikat DTA Cloud Essential CA"><img src="assets/Sertifikat/DTA%20Cloud%20Essential%20CA%20-%20DEX%20-%20AWS%20-%20Nasional.jpeg" alt="Sertifikat DTA Cloud Essential CA — DEX — AWS" loading="lazy"><span><i data-lucide="maximize-2"></i> Lihat sertifikat</span></a><p class="credential-org">AWS · DTA</p><h3>DTA Cloud Essential CA</h3><p>DEX · AWS · Nasional</p></article>
+          <article class="credential-card reveal"><a class="certificate-preview" href="assets/Sertifikat/DTA%20Intermediate%20Associate%20Netword%20-%20nasional.jpeg" target="_blank" rel="noreferrer" aria-label="Buka sertifikat DTA Intermediate Associate Network"><img src="assets/Sertifikat/DTA%20Intermediate%20Associate%20Netword%20-%20nasional.jpeg" alt="Sertifikat DTA Intermediate Associate Network" loading="lazy"><span><i data-lucide="maximize-2"></i> Lihat sertifikat</span></a><p class="credential-org">DTA · NASIONAL</p><h3>Intermediate Associate Network</h3><p>Digital Talent Academy</p></article>
+          <article class="credential-card reveal"><a class="certificate-preview" href="assets/Sertifikat/HCIA-Big%20Data%20V3.5%20Course.png" target="_blank" rel="noreferrer" aria-label="Buka sertifikat HCIA Big Data"><img src="assets/Sertifikat/HCIA-Big%20Data%20V3.5%20Course.png" alt="Sertifikat pelatihan HCIA Big Data V3.5" loading="lazy"><span><i data-lucide="maximize-2"></i> Lihat sertifikat</span></a><p class="credential-org">HUAWEI · HCIA</p><h3>Big Data V3.5</h3><p>Course Certificate</p></article>
+          <article class="credential-card reveal"><a class="certificate-preview" href="assets/Sertifikat/HCIA-Datacom%20V1.0%20Course%20(Indonesian).png" target="_blank" rel="noreferrer" aria-label="Buka sertifikat HCIA Datacom"><img src="assets/Sertifikat/HCIA-Datacom%20V1.0%20Course%20(Indonesian).png" alt="Sertifikat pelatihan HCIA Datacom V1.0" loading="lazy"><span><i data-lucide="maximize-2"></i> Lihat sertifikat</span></a><p class="credential-org">HUAWEI · HCIA</p><h3>Datacom V1.0</h3><p>Course Certificate · Bahasa Indonesia</p></article>
+          <article class="credential-card reveal"><a class="certificate-preview" href="assets/Sertifikat/HCIA-Storage%20V5.0%20Course.png" target="_blank" rel="noreferrer" aria-label="Buka sertifikat HCIA Storage"><img src="assets/Sertifikat/HCIA-Storage%20V5.0%20Course.png" alt="Sertifikat pelatihan HCIA Storage V5.0" loading="lazy"><span><i data-lucide="maximize-2"></i> Lihat sertifikat</span></a><p class="credential-org">HUAWEI · HCIA</p><h3>Storage V5.0</h3><p>Course Certificate</p></article>
+          <article class="credential-card reveal"><a class="certificate-preview" href="assets/Sertifikat/IDN%20Cisco%20dasar.jpeg" target="_blank" rel="noreferrer" aria-label="Buka sertifikat Cisco Dasar IDN"><img src="assets/Sertifikat/IDN%20Cisco%20dasar.jpeg" alt="Sertifikat IDN Cisco Dasar" loading="lazy"><span><i data-lucide="maximize-2"></i> Lihat sertifikat</span></a><p class="credential-org">IDN · NETWORKING</p><h3>Cisco Dasar</h3><p>Pelatihan jaringan komputer</p></article>
+          <article class="credential-card reveal"><a class="certificate-preview" href="assets/Sertifikat/IDN%20Belajar%20linux%20dari%200.jpeg" target="_blank" rel="noreferrer" aria-label="Buka sertifikat Belajar Linux dari Nol"><img src="assets/Sertifikat/IDN%20Belajar%20linux%20dari%200.jpeg" alt="Sertifikat IDN Belajar Linux dari Nol" loading="lazy"><span><i data-lucide="maximize-2"></i> Lihat sertifikat</span></a><p class="credential-org">IDN · SYSTEM</p><h3>Belajar Linux dari 0</h3><p>Pelatihan sistem operasi Linux</p></article>
+          <article class="credential-card reveal"><a class="certificate-preview" href="assets/Sertifikat/IDN%20Cyber%20Security%20Dasar.jpeg" target="_blank" rel="noreferrer" aria-label="Buka sertifikat Cyber Security Dasar"><img src="assets/Sertifikat/IDN%20Cyber%20Security%20Dasar.jpeg" alt="Sertifikat IDN Cyber Security Dasar" loading="lazy"><span><i data-lucide="maximize-2"></i> Lihat sertifikat</span></a><p class="credential-org">IDN · SECURITY</p><h3>Cyber Security Dasar</h3><p>Dasar keamanan siber</p></article>
+          <article class="credential-card reveal"><a class="certificate-preview" href="assets/Sertifikat/IDn%20Mikrotik%20Dasar.jpeg" target="_blank" rel="noreferrer" aria-label="Buka sertifikat Mikrotik Dasar"><img src="assets/Sertifikat/IDn%20Mikrotik%20Dasar.jpeg" alt="Sertifikat IDN Mikrotik Dasar" loading="lazy"><span><i data-lucide="maximize-2"></i> Lihat sertifikat</span></a><p class="credential-org">IDN · NETWORKING</p><h3>Mikrotik Dasar</h3><p>Pelatihan konfigurasi Mikrotik</p></article>
+          <article class="credential-card reveal"><a class="certificate-preview" href="assets/Sertifikat/IDN.jpeg" target="_blank" rel="noreferrer" aria-label="Buka sertifikat IDN"><img src="assets/Sertifikat/IDN.jpeg" alt="Sertifikat IDN" loading="lazy"><span><i data-lucide="maximize-2"></i> Lihat sertifikat</span></a><p class="credential-org">IDN · CERTIFICATE</p><h3>Sertifikat IDN</h3><p>Sertifikat pelatihan IDN</p></article>
+        </div></div>
+        <div class="tab-panel" role="tabpanel" id="panel-gallery" aria-labelledby="tab-gallery" data-panel="gallery" hidden><div class="gallery-grid">
+          <figure class="polaroid reveal"><img src="assets/Gallery/Konfigurasi%20VLAN.jpeg" alt="Dokumentasi konfigurasi VLAN" loading="lazy"><figcaption>Konfigurasi VLAN</figcaption></figure>
+          <figure class="polaroid reveal"><img src="assets/Gallery/Linux.jpeg" alt="Dokumentasi pembelajaran Linux" loading="lazy"><figcaption>Belajar Linux</figcaption></figure>
+          <figure class="polaroid reveal"><img src="assets/Gallery/Shared%20file%201%20Switch.jpeg" alt="Dokumentasi perangkat switch" loading="lazy"><figcaption>Perangkat switch</figcaption></figure>
+          <figure class="polaroid reveal"><img src="assets/Gallery/Soldering%20dan%20Desoldering.jpeg" alt="Praktik soldering dan desoldering" loading="lazy"><figcaption>Soldering &amp; desoldering</figcaption></figure>
+          <figure class="polaroid reveal"><img src="assets/Gallery/Splicing%20Fiber%20Optik.jpeg" alt="Praktik splicing fiber optik" loading="lazy"><figcaption>Splicing fiber optik</figcaption></figure>
+          <figure class="polaroid reveal"><img src="assets/Gallery/Troubleshooting%20PC.jpeg" alt="Dokumentasi troubleshooting PC" loading="lazy"><figcaption>Troubleshooting PC</figcaption></figure>
+        </div></div>
+      </div>
+    </section>
+
+    <section class="contact section-dark topo-bg" id="contact"><div class="wrap">
+      <div class="section-heading reveal"><div><p class="section-label">03 — CONTACT</p><h2>Mari mulai <span>sesuatu.</span></h2></div><p class="heading-note">Terbuka untuk kolaborasi, obrolan, atau secangkir kopi.</p></div>
+      <div class="contact-grid">
+        <div class="contact-left reveal"><div class="contact-intro"><span class="contact-orb"><i data-lucide="send"></i></span><div><h3>Hubungi Saya</h3><p>Punya ide menarik? Kirimkan pesan.</p></div></div>
+          <form id="contactForm" class="contact-form"><label>Nama<input name="name" required maxlength="60" autocomplete="name" placeholder="Nama Anda"></label><label>Email<input name="email" type="email" required maxlength="120" autocomplete="email" placeholder="nama@email.com"></label><label>Pesan<textarea name="message" required maxlength="500" rows="4" placeholder="Ceritakan sedikit tentang ide Anda..."></textarea></label><div class="form-submit-row"><span id="formStatus" aria-live="polite"></span><button type="submit" class="button button-primary">Kirim pesan <i data-lucide="arrow-up-right"></i></button></div></form>
+          <div class="find-me"><p class="section-label">FIND ME AROUND</p><div><a href="https://www.instagram.com/iamfbrii_/" target="_blank" rel="noreferrer"><i data-lucide="instagram"></i> Instagram <i data-lucide="arrow-up-right"></i></a><a href="https://github.com/" target="_blank" rel="noreferrer"><i data-lucide="github"></i> GitHub <i data-lucide="arrow-up-right"></i></a><a href="https://www.linkedin.com/" target="_blank" rel="noreferrer"><i data-lucide="linkedin"></i> LinkedIn <i data-lucide="arrow-up-right"></i></a></div></div>
+        </div>
+      </div>
+      <footer class="footer"><a class="brand" href="#home">Ilham<span>.</span></a><p>Dirancang dengan niat baik, dibuat di Indonesia.</p><span>© <span id="year"></span> Ilham Febrian</span></footer>
+    </div></section>
+  </main>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
